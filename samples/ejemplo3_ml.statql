@@ -1,0 +1,8 @@
+// Entrenamiento de modelo de Machine Learning con StatQL y scikit-learn
+cargar "estudiantes.csv" como dataset_estudiantes
+
+mostrar "Iniciando entrenamiento del modelo..."
+
+entrenar arbol con dataset_estudiantes objetivo "aprobado" como clasificador_arbol
+
+mostrar "Proceso de Machine Learning finalizado correctamente"
