@@ -13,6 +13,7 @@ from .semantic_analyzer import SemanticAnalyzer, SemanticError, SemanticErrorCod
 from .csv_loader import CSVLoader, CSVSchema, CSVLoadError
 from .notation_converter import NotationConverter
 from .ir_generator import Quadruple, IntermediateCodeGenerator
+from .optimizer import QuadrupleOptimizer, OptimizationStats
 
 __all__ = [
     "Lexer", "Token", "TokenType", "LexerError",
@@ -27,4 +28,5 @@ __all__ = [
     "SemanticAnalyzer", "SemanticError", "SemanticErrorCode",
     "CSVLoader", "CSVSchema", "CSVLoadError",
     "NotationConverter", "Quadruple", "IntermediateCodeGenerator"
+    "QuadrupleOptimizer", "OptimizationStats"
 ]
