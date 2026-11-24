@@ -1,0 +1,29 @@
+// Demostración básica del lenguaje StatQL
+/* Este programa muestra declaraciones,
+   operaciones aritméticas, promoción de tipos (I2D)
+   y estructuras de control. */
+
+entero contador = 0
+decimal calificacion_base = 5
+decimal factor = 1.5
+texto mensaje_exito = "Operación completada con éxito"
+booleano activo = verdadero
+
+// Operación mixta: decimal = decimal + (entero promovido a decimal)
+decimal resultado = calificacion_base + contador
+
+si (resultado >= 5.0 y activo) {
+    mostrar "El resultado es satisfactorio"
+    mostrar resultado
+} sino {
+    mostrar "Resultado insatisfactorio"
+}
+
+// Bucle mientras
+mientras (contador < 3) {
+    mostrar "Iteración del contador:"
+    mostrar contador
+    contador = contador + 1
+}
+
+mostrar mensaje_exito

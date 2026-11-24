@@ -1,0 +1,24 @@
+// Análisis de datos con StatQL y pandas
+cargar "estudiantes.csv" como datos
+
+entero aprobados = 0
+entero reprobados = 0
+
+mostrar "--- Lista de Estudiantes y Estado Académico ---"
+
+para cada alumno en datos {
+    si (alumno.promedio >= 7.0 o alumno.aprobado == verdadero) {
+        mostrar "Aprobado:"
+        mostrar alumno.nombre
+        aprobados = aprobados + 1
+    } sino {
+        mostrar "Reprobado:"
+        mostrar alumno.nombre
+        reprobados = reprobados + 1
+    }
+}
+
+mostrar "Total aprobados:"
+mostrar aprobados
+mostrar "Total reprobados:"
+mostrar reprobados
