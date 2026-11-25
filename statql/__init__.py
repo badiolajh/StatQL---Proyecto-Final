@@ -1,5 +1,6 @@
 from .lexer import Lexer, Token, TokenType, LexerError
 from .parser import Parser, ParserError
+from .codegen import ObjectCodeGenerator, RegisterAllocator, RegisterAllocationEntry
 from .ast_nodes import (
     ASTNode, ProgramNode, BlockNode,
     CargaNode, DeclaracionNode, AsignacionNode, MostrarNode, EntrenarNode,
@@ -28,5 +29,6 @@ __all__ = [
     "SemanticAnalyzer", "SemanticError", "SemanticErrorCode",
     "CSVLoader", "CSVSchema", "CSVLoadError",
     "NotationConverter", "Quadruple", "IntermediateCodeGenerator"
-    "QuadrupleOptimizer", "OptimizationStats"
+    "QuadrupleOptimizer", "OptimizationStats",
+    "ObjectCodeGenerator", "RegisterAllocator", "RegisterAllocationEntry"
 ]

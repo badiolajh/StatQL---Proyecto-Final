@@ -5,3 +5,5 @@ venv/
 .venv/
 .vscode/
 .idea/
+
+printf "\nbuild_asm/\n.pytest_cache/\n" >> .gitignore
