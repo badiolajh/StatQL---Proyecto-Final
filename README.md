@@ -174,6 +174,7 @@ StatQL---Proyecto-Final/
 │   ├── 01_analisis_semantico.md
 │   ├── 02_codigo_intermedio.md
 │   └── 03_optimizacion.md
+│   └── 04_manual_usuario_compilacion.pdf
 ├── demo_optimizacion.py
 ├── demo_compilador_completo.py
 └── build_asm/                    # Salida generada
@@ -471,11 +472,12 @@ Para archivos CSV con rutas relativas, revisa el parámetro `base_dir` de `Seman
 
 Los documentos técnicos se encuentran en `docs/`:
 
-| Documento | Contenido |
-| :--- | :--- |
-| [Análisis semántico](docs/01_analisis_semantico.md) | Símbolos, ámbitos, tipos y validaciones |
-| [Código intermedio](docs/02_codigo_intermedio.md) | Notaciones, cuádruplos y traducción |
-| [Optimización](docs/03_optimizacion.md) | Transformaciones y métricas |
+| Documento | Contenido | Formato |
+| :--- | :--- | :--- |
+| [Análisis semántico](docs/01_analisis_semantico.md) | Símbolos, ámbitos, tipos y validaciones | Markdown |
+| [Código intermedio](docs/02_codigo_intermedio.md) | Notaciones, cuádruplos y traducción | Markdown |
+| [Optimización](docs/03_optimizacion.md) | Transformaciones y métricas | Markdown |
+| [Manual de usuario y compilación](docs/04_manual_usuario_compilacion.pdf) | Instalación, uso, compilación, pruebas y solución de problemas | PDF |
 
 ## Alcance y limitaciones
 
