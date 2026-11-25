@@ -1,0 +1,21 @@
+// Algoritmo Clasico 3: Calculadora Aritmetica, Relacional y Logica
+entero op1 = 42;
+entero op2 = 6;
+
+entero suma = op1 + op2;
+entero resta = op1 - op2;
+entero mult = op1 * op2;
+entero divi = op1 / op2;
+entero negado = -op2 + 10;
+
+mostrar suma;
+mostrar resta;
+mostrar mult;
+mostrar divi;
+mostrar negado;
+
+si (divi == 7 y suma > 40) {
+    mostrar "CALC_OK";
+} sino {
+    mostrar "CALC_ERR";
+}

@@ -1,0 +1,13 @@
+// Algoritmo Clasico 4: Maximo Comun Divisor (Algoritmo de Euclides)
+entero a = 48;
+entero b = 18;
+
+mientras (a != b) {
+    si (a > b) {
+        a = a - b;
+    } sino {
+        b = b - a;
+    }
+}
+
+mostrar a;

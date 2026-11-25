@@ -1,0 +1,11 @@
+// Algoritmo Clasico 1: Calculo de Factorial Iterativo (6! = 720)
+entero n = 6;
+entero fact = 1;
+entero i = 1;
+
+mientras (i <= n) {
+    fact = fact * i;
+    i = i + 1;
+}
+
+mostrar fact;

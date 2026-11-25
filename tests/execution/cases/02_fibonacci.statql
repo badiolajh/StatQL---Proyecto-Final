@@ -1,0 +1,14 @@
+// Algoritmo Clasico 2: Serie de Fibonacci (8 primeros terminos)
+entero limite = 8;
+entero a = 0;
+entero b = 1;
+entero cont = 0;
+entero siguiente = 0;
+
+mientras (cont < limite) {
+    mostrar a;
+    siguiente = a + b;
+    a = b;
+    b = siguiente;
+    cont = cont + 1;
+}
