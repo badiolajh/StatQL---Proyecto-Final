@@ -479,6 +479,10 @@ Los documentos técnicos se encuentran en `docs/`:
 | [Optimización](docs/03_optimizacion.md) | Transformaciones y métricas | Markdown |
 | [Manual de usuario y compilación](docs/04_manual_usuario_compilacion.pdf) | Instalación, uso, compilación, pruebas y solución de problemas | PDF |
 
+## Exposición
+
+* [Presentación del proyecto (Canva)](https://canva.link/lcr5vv4e15ttkj7)
+
 ## Alcance y limitaciones
 
 - El destino del backend es Linux IA-32; no genera código nativo x86-64 ni ejecutables para Windows.
